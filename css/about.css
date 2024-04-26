@@ -1,0 +1,53 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06) ;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#logo{
+    padding: 0 20px;
+    border-radius: 60%;
+    width: 20%;
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+#navbar li {
+list-style: none;
+padding: 0 20px;
+position: relative;
+
+}
+#navbar li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color:orange;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgb(10, 6, 0);
+}
+#navbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: rgb(47, 35, 13);
+    position: absolute;
+    bottom: -3px;
+    left: 20px;
+}
+/*footer*/
+#personal-info image{
+    
+}
